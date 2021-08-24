@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery</title>
+  <link rel="shortcut icon" href="images/title icon (2).png">
+  <!-- Animation Link Start -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Animation Link End -->
+  <!-- Add Bootstrep -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <!-- Add Bootstrep -->
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS -->
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <!-- Google FOnt -->
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" id="NAV">
+    <a class="navbar-brand" href="#"><img src="images/logos.png" alt="" width="70"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true" onclick="Restaurent()" style="font-size: larger;">Restaurant <i class="fas fa-sign-in-alt"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true" onclick="User()" style="font-size: larger;">User <i class="fas fa-sign-in-alt"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <center>
+    <br><br><p style="color: white;">ENJOY YOUR HEALTHY DELICIOUS MEAL</p>
+    <h1 style="color: white;">Food Delivery</h1>
+    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo obcaecati hic quisquam corporis,   <br>   sed cupiditate aut ipsam fugit ad reiciendis?</p>
+    <button class="btn">Explore Now</button><br><br><br><br><br>
+    <div class="">
+      <i class=" A fab fa-whatsapp  "></i>
+      <i class=" A fab fa-facebook ml-2"></i>
+      <i class="A fab fa-twitter ml-2"></i>
+      <i class="A fab fa-instagram ml-2"></i>
+    </div>
+  </center><br>
+  <div class="content">
+    <div class="SECA">
+      <h2 style="text-align: center;color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Popualr <b> Foods</b></h2>
+
+      <!-- carousel start -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center>
+              <div style="display: flex;" class="ml-5">
+                <div><img src="images/break fast 2.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/break fast 1.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+                <div class="ml-5"><br><br><p style="color: white;font-size: larger;"> A healthy breakfast has many health benefits, so try not to skip it.<br>    Breakfast replenishes the stores of energy and nutrients in your body.</p></div>
+              </div>
+              <div style="display: flex;" class="ml-5 mt-5">
+                <div data-aos="zoom-left"><img src="images/break fast 3.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div data-aos="fade-left"><img src="images/break fast 4.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+              </div>   
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h2 style="color: black;">Breakfast <i class="fas fa-coffee"></i></h2>
+              <p style="color: black;">Our Food is Organic And Tasty</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <center>
+              <div style="display: flex;" class="ml-5">
+                <div><img src="images/lunch 1.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/lunch 2.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+                <div class="ml-5"><br><br><p style="color: white;font-size: larger;"> Lunch is an important part of a healthy diet, which is essential for the development,<br>    growth and academic performance of school-aged children..</p></div>
+              </div>
+              <div style="display: flex;" class="ml-5 mt-5">
+                <div></div>
+                <div><img src="images/lunch 3.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/lunch 4.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+              </div>   
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h2 style="color: black;">Lunch <i class="fas fa-drumstick-bite"></i></h2>
+              <p style="color: black;">Our Food is Organic And Tasty</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <center>
+              <div style="display: flex;" class="ml-5">
+                <div><img src="images/dinner 1.jpg " style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/dinner 2.jpeg" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+                <div class="ml-5"><br><br><p style="color: white;font-size: larger;">Dinner is also an important part of a healthy diet,<br>    Dinner replenishes the stores of energy and nutrients in your body.</p></div>
+              </div>
+              <div style="display: flex;" class="ml-5 mt-5">
+                <div></div>
+                <div><img src="images/dinner 3.jpg" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/dinner 4.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+              </div>   
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h2 style="color: black;">Dinner <i class="fas fa-egg"></i></h2>
+              <p style="color: black;">Our Food is Organic And Tasty</p>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <center>
+              <div style="display: flex;" class="ml-5">
+                <div><img src="images/drink 1.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/drink 2.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+                <div class="ml-5"><br><br><p style="color: white;font-size: larger;">Drink is Refreshment for our body life .<br>   Good drink in best for health.</p></div>
+              </div>
+              <div style="display: flex;" class="ml-5 mt-5">
+                <div></div>
+                <div><img src="images/drink 3.jpeg" alt="" style="height: 200px;width: 200px;border-radius: 20px;"></div>
+                <div><img src="images/drink 4.jpg" alt="" style="height: 200px;width: 200px;border-radius: 20px;" class="ml-5"></div>
+              </div>   
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h2 style="color: black;">Drinks <i class="fas fa-cocktail"></i></h2>
+              <p style="color: black;">Our Food is Organic And Tasty</p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+        <!-- <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+      </div>
+
+      <!-- carousel End -->
+    </div>
+    <!-- Footer Start -->
+    <!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3" style="color: white;">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold" >Restaurant</h5>
+        <p>Restaurants are a unique and diverse industry that sees incredible results from creative text message marketing strategies. For example, when Taco Bell launched its SMS campaign, they received 13,000 opt-ins within just the first five weeks. And Pizza Hut found that text message marketing generated 142% more incremental sales than other marketing channels.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3" style="color: white;">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">User</h5>
+        <p>User are a most important among other things, the authors found that the Back button is now only the 3rd most-used feature on the Web. Clicking hypertext links remains the most-used feature, but clicking buttons (on the page) has now overtaken Back to become the second-most used feature.</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <a href="#NAV" > Food Delivery</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    <!-- Footer End -->
+
+
+
+
+  </div>
+  <!-- Animation Link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+  AOS.init({
+      fadein:300,
+  });
+  </script>
+   <!-- Animation Link -->
+
+  <script src="fooddelivery.js"></script>
+</body>
+
+</html>

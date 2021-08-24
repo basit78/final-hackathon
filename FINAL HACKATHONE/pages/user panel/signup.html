@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Add Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDu08hYlH9M4VDQBjxlMYKhJOAsCiwVKdY",
+    authDomain: "hecazone.firebaseapp.com",
+    projectId: "hecazone",
+    storageBucket: "hecazone.appspot.com",
+    messagingSenderId: "1026575375166",
+    appId: "1:1026575375166:web:d2219f8a358f22f406aa6f",
+    measurementId: "G-J4DR7THJTX"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<body class="img js-fullheight" style="background-image: url(images/background.jpg);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mt-5">
+                <h2 class="heading-section">Sign Up</h2>
+            </div>
+        </div><br>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="login-wrap p-0">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="First Name" id="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Last Name" id="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email" id="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input id="Password" type="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-primary submit px-3" onclick="Signup()">Sign Up
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+
+ul li a:hover{
+    background-color: transparent !important;
+    color: #FF5153 !important;
+}
+/* .Carousel{
+height: 561px;
+}
+.A{
+    position: absolute;
+    left: 0;
+} */
+body{
+    background-image: url('images/carousel\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ } 
+.H1BG{
+    color:#fff ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vh;
+    
+}
+.btn{
+    background-color: #FF5153;
+    color: white;
+}
+.content{
+    background-color: bl;
+    width: 100%;
+    
+}
+.PBG{
+    color:#fff ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vh; 
+}
+i:hover{
+    background-color: transparent !important;
+    color: #FF5153 !important;
+    
+}
+.A{
+    font-size: 30px;
+}
+.SECA{
+    width: 100%;
+    background-color:#ffa6a7 ;
+    height: 500px;
+}
+@media screen and (max-width: 480px) {
+    .SECA {
+        background-color:#ffa6a7;
+        height: 800px;
+    }
+  }
+
+
